@@ -15,7 +15,8 @@
       }
 
       h1,
-      h2 {
+      h2,
+      h3 {
         color: #111;
       }
 
@@ -31,6 +32,32 @@
         margin-bottom: 0.5em;
       }
 
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 1.5em;
+        font-size: 0.95em;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px 10px;
+        text-align: left;
+        vertical-align: top;
+      }
+
+      th {
+        background: #f6f6f6;
+      }
+
+      .summary {
+        background: #f6f8fa;
+        border-left: 4px solid #111;
+        padding: 12px 16px;
+        margin-bottom: 2em;
+      }
+
       .effective-date {
         border-top: 1px solid #eee;
         padding-top: 20px;
@@ -43,131 +70,291 @@
   <body>
     <h1>PushBoss Privacy Policy</h1>
 
-    <p><strong>Last updated:</strong> April 2026</p>
-    <p><strong>Effective date:</strong> April 10, 2026</p>
+    <p><strong>Last updated:</strong> August 2, 2026</p>
+    <p><strong>Effective date:</strong> August 2, 2026</p>
 
-    <h2>1. Introduction</h2>
+    <div class="summary">
+      <p><strong>Short version:</strong></p>
+      <ul>
+        <li>PushBoss has no accounts, no sign-in, and no user database. We never ask for your email.</li>
+        <li>
+          Camera video is analysed entirely on your phone to count reps. Frames are never uploaded,
+          never stored by the rep counter, and never seen by us.
+        </li>
+        <li>
+          Optional session recordings (including microphone audio, if you allow it) stay on your
+          device and in your Photos library. They are only shared if you choose to share them.
+        </li>
+        <li>
+          We receive anonymous product analytics (PostHog) and anonymous subscription data
+          (RevenueCat). No advertising, no ad networks, no cross-app tracking, no IDFA.
+        </li>
+        <li>Deleting the app deletes all of your PushBoss data from your device.</li>
+      </ul>
+    </div>
+
+    <h2>1. Who We Are</h2>
     <p>
-      Welcome to PushBoss! We are committed to protecting your privacy. This Privacy Policy explains
-      how we collect, use, and disclose your information when you use our mobile application
-      PushBoss (the "App"). By using the App, you agree to the collection and use of information in
-      accordance with this policy.
+      PushBoss (the "App") is developed and operated by Aleksandr Prikhodko, an individual
+      developer trading as "PushBoss" (referred to as "we", "us", or "our"). For data protection
+      purposes, we are the data controller for the limited information described below.
+    </p>
+    <p>
+      Contact: <a href="mailto:pushboss.app@gmail.com">pushboss.app@gmail.com</a>
+    </p>
+    <p>
+      This Privacy Policy explains what information the App handles, where that information lives,
+      and what rights you have. It applies to the PushBoss mobile application only.
     </p>
 
-    <h2>2. What Information We Collect</h2>
-    <p>We collect the following types of information:</p>
-
-    <h3>Information You Provide Directly</h3>
-    <ul>
-      <li>
-        <strong>Account Information:</strong> When you create an account or subscribe, we collect
-        your email address and basic profile information.
-      </li>
-      <li>
-        <strong>Support Communications:</strong> If you contact us for support, we collect your
-        name, email, and the content of your message.
-      </li>
-    </ul>
-
-    <h3>Information Collected Automatically</h3>
-    <ul>
-      <li>
-        <strong>Camera Data:</strong> For the AI pose detection feature, we process camera data
-        directly on your device. This data is never sent to our servers or shared with third
-        parties. <strong>Video and audio are processed in real-time on your device and are not
-        transmitted to any server.</strong>
-      </li>
-      <li>
-        <strong>Screen Recordings:</strong> The App offers optional screen recording of your
-        exercise sessions. These recordings are stored locally on your device and are only
-        shared if you choose to do so. They are never uploaded to our servers.
-      </li>
-      <li>
-        <strong>Usage Data:</strong> We collect information about how you use the App, such as
-        features used, buttons clicked, and time spent.
-      </li>
-      <li>
-        <strong>Device Information:</strong> We collect information about your device, including
-        device type, operating system, and unique device identifiers.
-      </li>
-    </ul>
-
-    <h2>3. How We Use Your Information</h2>
-    <p>We use the information we collect to:</p>
-    <ul>
-      <li>Provide, maintain, and improve the App</li>
-      <li>Process your subscriptions and manage your account</li>
-      <li>Respond to your support requests</li>
-      <li>Send you important updates and notifications (you can opt-out)</li>
-      <li>Analyze usage patterns to improve user experience</li>
-      <li>Detect and prevent fraud and abuse</li>
-    </ul>
-
-    <h2>4. Sharing Your Information</h2>
-    <p>We do not sell or rent your personal information. We may share your information with:</p>
-    <ul>
-      <li>
-        <strong>Service Providers:</strong> Third-party companies that help us operate the App
-        (e.g., analytics, payment processing).
-      </li>
-      <li>
-        <strong>Legal Requirements:</strong> When required by law or to protect our rights,
-        property, or safety.
-      </li>
-      <li>
-        <strong>Business Transfers:</strong> In connection with a merger, acquisition, or sale of
-        assets.
-      </li>
-    </ul>
-
-    <h2>5. Data Retention</h2>
+    <h2>2. No Accounts, No Sign-In</h2>
     <p>
-      We retain your personal information only as long as necessary to fulfill the purposes outlined
-      in this policy, unless a longer retention period is required by law. Camera data is processed
-      entirely on your device and never stored or transmitted.
+      PushBoss does not offer account creation and does not support sign-in of any kind. There is no
+      "Sign in with Apple", no Google sign-in, no email or password, and no social login. We do not
+      collect your email address, phone number, postal address, or payment details.
+    </p>
+    <p>
+      Because there is no account, there is nothing for us to log you into and no user profile held
+      on our side. See <a href="#deletion">Section 8</a> for how deletion works in practice.
     </p>
 
-    <h2>6. Your Rights</h2>
-    <p>Depending on your location, you may have the right to:</p>
+    <h2>3. Information Stored On Your Device</h2>
+    <p>
+      Almost everything PushBoss knows about you is stored locally on your phone and never leaves
+      it. This includes:
+    </p>
     <ul>
-      <li>Access, correct, or delete your personal information</li>
+      <li>
+        <strong>The first name you type during setup.</strong> It is used only to address you inside
+        the App. It is stored on your device and is never transmitted to us or to any third party.
+      </li>
+      <li>
+        <strong>Your setup answers that we keep:</strong> fitness level, weekly workout goal,
+        fitness goal, your self-reported max-pushups range, and your chosen content pack/art style.
+      </li>
+      <li>
+        <strong>Workout history and progress:</strong> completed sessions, rep counts, session
+        duration, streaks, streak freezes, badges, challenges, and experience points.
+      </li>
+      <li>
+        <strong>App settings:</strong> music on/off, session recording on/off, tutorial and
+        onboarding completion flags, subscription status flags, and your referral code and referral
+        counts.
+      </li>
+    </ul>
+    <p>
+      <strong>Setup answers we deliberately discard:</strong> the gender question and the
+      "how often do you think about getting in shape" question are used only to pick the tone of the
+      next screen. Those answers are held in temporary memory, are never written to storage, and are
+      never transmitted anywhere.
+    </p>
+
+    <h2>4. Camera, Microphone, and Recordings</h2>
+
+    <h3>Camera and pose detection</h3>
+    <p>
+      To count your pushups, the App runs on-device pose detection (Google ML Kit Pose Detection)
+      over the live camera feed. <strong>Camera frames are processed in real time on your device,
+      are not written to disk by the rep counter, are never uploaded to any server, and are never
+      accessible to us or to any third party.</strong> No image, video frame, or body-landmark data
+      is transmitted off your phone.
+    </p>
+
+    <h3>Optional session recording</h3>
+    <p>
+      PushBoss offers an optional screen recording of your workout session, which you can turn on or
+      off in Settings. When it is enabled:
+    </p>
+    <ul>
+      <li>
+        The recording captures your session screen, including the camera view. If you grant
+        microphone permission, <strong>the recording also captures audio from your microphone</strong>,
+        so that your own sound is part of the clip.
+      </li>
+      <li>
+        The resulting video file is stored on your device and is automatically saved to a "PushBoss"
+        album in your Photos library.
+      </li>
+      <li>
+        <strong>Recordings are never uploaded to us.</strong> They leave your device only if you
+        personally choose to share them, for example to TikTok or via the system share sheet, in
+        which case the receiving app's own privacy policy applies.
+      </li>
+    </ul>
+
+    <h3>Photo library</h3>
+    <p>
+      The App requests permission to add media to your photo library so it can save your session
+      recordings. It does not read, browse, or upload your existing photos.
+    </p>
+
+    <h2>5. Information Sent To Third Parties</h2>
+    <p>
+      We do not sell or rent personal information, and we do not share it with data brokers or
+      advertisers. The App communicates with a small number of service providers, listed in full
+      below. Each of these providers is bound by its own contractual and legal obligations to
+      protect the data it receives.
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Service</th>
+          <th>Purpose</th>
+          <th>What it receives</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>PostHog</strong> (PostHog, Inc., US cloud &mdash; us.i.posthog.com)</td>
+          <td>Anonymous product analytics, so we can see which parts of the App are used and where
+            people get stuck.</td>
+          <td>
+            A randomly generated anonymous installation identifier, plus events such as screens
+            viewed, buttons tapped, sessions completed, rep counts, session duration, selected
+            fitness level and weekly frequency, and basic device and app version information.
+            <strong>It does not receive your name, email, camera data, recordings, or any
+            advertising identifier.</strong> Automatic event capture and session replay are
+            disabled.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>RevenueCat</strong> (RevenueCat, Inc.)</td>
+          <td>Managing subscription status and restoring purchases across devices.</td>
+          <td>
+            An anonymous RevenueCat identifier, your subscription and transaction status from the
+            App Store, and the anonymous analytics identifier described above (so the two anonymous
+            records can be matched). No name and no email.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Apple</strong> (App Store / StoreKit)</td>
+          <td>Processing purchases, subscriptions, trials, and refunds.</td>
+          <td>
+            Apple handles the entire payment flow. <strong>We never see or receive your payment
+            card, billing address, or Apple Account credentials.</strong> Apple's own privacy policy
+            governs that processing.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Expo</strong> (Expo EAS Update, 650 Industries, Inc.)</td>
+          <td>Delivering over-the-air bug fixes and updates to the App.</td>
+          <td>
+            Standard technical request information when the App checks for an update, such as app
+            version, platform, and the IP address of the request.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>
+      We may also disclose information where we are legally required to do so, or to establish,
+      exercise, or defend legal claims. If the App is ever transferred to another owner, the limited
+      anonymous data described above may transfer with it, and this policy would be updated first.
+    </p>
+
+    <h2>6. What The App Does Not Do</h2>
+    <ul>
+      <li><strong>No push notifications.</strong> The App does not send push notifications and does not request notification permission.</li>
+      <li><strong>No advertising and no cross-app tracking.</strong> There are no ad networks, no IDFA/advertising identifier access, and no App Tracking Transparency prompt, because the App does not track you across other companies' apps or websites.</li>
+      <li><strong>No health-app integration.</strong> The App does not read from or write to Apple Health, Google Fit, or any similar health platform, and it does not collect your weight, height, age, or medical information.</li>
+      <li><strong>No selling or sharing of personal information</strong> as those terms are defined under the California Consumer Privacy Act. We have not sold or shared personal information in the preceding twelve months.</li>
+      <li><strong>No user database.</strong> We operate no server that stores records about individual users.</li>
+    </ul>
+
+    <h2>7. Legal Bases and International Transfers</h2>
+    <p>
+      If you are in the European Economic Area or the United Kingdom, our legal bases for processing
+      are: performance of a contract with you, for delivering the App's functionality and your
+      subscription; and our legitimate interests, for anonymous analytics used to keep the App
+      working, fix problems, and improve it. You may object to processing based on legitimate
+      interests at any time using the contact address below.
+    </p>
+    <p>
+      The service providers listed in Section 5 are located in the United States, so the limited
+      anonymous data they receive is processed there. Those transfers rely on the providers'
+      standard contractual clauses and equivalent safeguards.
+    </p>
+
+    <h2 id="deletion">8. Retention and Deletion</h2>
+    <ul>
+      <li>
+        <strong>On-device data</strong> is kept for as long as the App is installed.
+        <strong>Deleting PushBoss from your device permanently deletes all of it</strong> &mdash;
+        your name, setup answers, history, streaks, and settings. This is immediate and requires no
+        request to us. Session recordings already saved to your Photos library are yours and are not
+        removed by uninstalling; you can delete them in the Photos app.
+      </li>
+      <li>
+        <strong>Anonymous analytics events</strong> are retained by PostHog on a rolling basis for as
+        long as they remain useful for product analysis, and no longer than 24 months.
+      </li>
+      <li>
+        <strong>Subscription records</strong> are retained by RevenueCat and Apple for as long as
+        required for billing, tax, and accounting purposes.
+      </li>
+    </ul>
+    <p>
+      Because there is no account, Apple's in-app account deletion requirement does not apply.
+      If you nevertheless want the anonymous analytics record for your installation erased, email us
+      at <a href="mailto:pushboss.app@gmail.com">pushboss.app@gmail.com</a> and we will delete it.
+      Please note that we cannot look up an anonymous record without the installation identifier, so
+      the simplest and most complete option remains deleting the App.
+    </p>
+
+    <h2>9. Your Rights</h2>
+    <p>Depending on where you live, you may have the right to:</p>
+    <ul>
+      <li>Access the information we hold about you, and receive a copy of it</li>
+      <li>Correct inaccurate information</li>
+      <li>Delete information</li>
       <li>Restrict or object to certain processing</li>
       <li>Data portability</li>
-      <li>Withdraw consent (where processing is based on consent)</li>
+      <li>Withdraw consent where processing is based on consent</li>
+      <li>Not be discriminated against for exercising these rights</li>
+      <li>Lodge a complaint with your local data protection authority</li>
     </ul>
     <p>
-      To exercise these rights, contact us at
-      <a href="mailto:pushboss.app@gmail.com">pushboss.app@gmail.com</a>.
+      To exercise any of these rights, contact
+      <a href="mailto:pushboss.app@gmail.com">pushboss.app@gmail.com</a>. We will respond within the
+      timeframe required by applicable law. In most cases you can exercise the access and deletion
+      rights yourself and instantly, because the data is on your own device.
     </p>
 
-    <h2>7. Children's Privacy</h2>
+    <h2>10. Children's Privacy</h2>
     <p>
-      The App is not intended for children under 13. We do not knowingly collect personal
-      information from children. If you are a parent and believe your child has provided us with
-      information, please contact us.
+      The App is not directed to children under 13, and we do not knowingly collect personal
+      information from children under 13. If you believe a child has provided us with information,
+      contact us and we will delete it.
     </p>
 
-    <h2>8. Security</h2>
+    <h2>11. Security</h2>
     <p>
-      We implement reasonable security measures to protect your information. However, no method of
-      transmission or storage is 100% secure.
+      The App's design is its main security property: sensitive material &mdash; camera frames,
+      recordings, and your name &mdash; stays on your device and is never transmitted. Data in
+      transit to the service providers listed above is encrypted using HTTPS. No method of
+      transmission or storage is completely secure, and we cannot guarantee absolute security.
     </p>
 
-    <h2>9. Changes to This Policy</h2>
+    <h2>12. Changes To This Policy</h2>
     <p>
-      We may update this policy from time to time. We will notify you of material changes through
-      the App or by email. Continued use constitutes acceptance of the updated policy.
+      We may update this policy from time to time. The "Last updated" date at the top will always
+      reflect the current version. If we make a material change to how information is handled, we
+      will make that clear in the App before the change takes effect.
     </p>
 
-    <h2>10. Related Documents</h2>
-    <p>Please also review our <a href="https://racionalistas.github.io/pushboss/terms-of-service">Terms of Service</a>.</p>
+    <h2>13. Related Documents</h2>
+    <p>
+      Please also review our
+      <a href="https://racionalistas.github.io/pushboss/terms-of-service">Terms of Service</a>.
+    </p>
 
-    <h2>11. Contact Us</h2>
-    <p>If you have questions about this Privacy Policy, contact us at:</p>
+    <h2>14. Contact Us</h2>
+    <p>Questions about this Privacy Policy or about your data:</p>
     <p><a href="mailto:pushboss.app@gmail.com">pushboss.app@gmail.com</a></p>
 
     <div class="effective-date">
-      <p><strong>Effective Date:</strong> April 10, 2026</p>
+      <p><strong>Effective Date:</strong> August 2, 2026</p>
     </div>
   </body>
 </html>
